@@ -2,18 +2,22 @@
 <html>
     <head>
         <style>
-   
     .img-container {
         float: left;
-        width: 24.99%;
-        padding: 5px;
-        box-sizing: border-box;
+        width: 20.99%;
+        padding: 0 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gainsboro;
+    } 
+   .img-container:hover {
+        border: 1px; border-color: black;
     }
     img {
         width: 100%;
     }
     div.desc {
-        padding: 15px;
+        padding: 1px;
         text-align: center;
     }
     * {
@@ -25,6 +29,11 @@
         margin: 6px 0;
    }
 }
+   @media only screen and (max-width: 600px) {
+    .img.img-container {
+        width: 100%;
+    }
+   }
     .clearfix::after {
         content: "";
         display: table;
@@ -35,9 +44,10 @@
     <body>
 <div class="img-container">
     <div class="gallery">
-    <a target="_blank">
+    <a target="_blank" href="photo.jpg/fjord.png">
     <img src="photo.jpg/fjord.png"
     width="400" height="200">
+
 </a>
 <div class="desc">Fjords</div>
 </div>
@@ -45,7 +55,7 @@
 
 <div class="img-container">
     <div class="gallery">
-    <a target="_blank">
+    <a target="_blank" href="photo.jpg/forest.jpg">
     <img src="photo.jpg/forest.jpg"
     width="400" height="200">
 </a>   
@@ -55,7 +65,7 @@
 
 <div class="img-container">
     <div class="gallery">
-    <a target="_blank">
+    <a target="_blank" href="photo.jpg/northern-lights.png">
     <img src="photo.jpg/northern-lights.png"
     width="400" height="200">
 </a>
@@ -65,7 +75,7 @@
 
 <div class="img-container">
     <div class="gallery">
-    <a target="_blank">
+    <a target="_blank" href="photo.jpg/mountains.png">
     <img src="photo.jpg/mountains.png"
     width="400" height="200">
 </a>

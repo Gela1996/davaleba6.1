@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+   
+    .img-container {
+        float: left;
+        width: 24.99%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    img {
+        width: 100%;
+    }
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    * {
+        box-sizing:border-box;
+    }
+   @media only screen and (max-width: 700px) {
+    .img-container {
+        width: 49.99%;
+        margin: 6px 0;
+   }
+}
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+        </style>
+    </head>
+    <body>
+<div class="img-container">
+    <div class="gallery">
+    <a target="_blank">
+    <img src="photo.jpg/fjord.png"
+    width="400" height="200">
+</a>
+<div class="desc">Fjords</div>
+</div>
+</div>
+
+<div class="img-container">
+    <div class="gallery">
+    <a target="_blank">
+    <img src="photo.jpg/forest.jpg"
+    width="400" height="200">
+</a>   
+<div class="desc">A forest</div>
+</div>
+</div>
+
+<div class="img-container">
+    <div class="gallery">
+    <a target="_blank">
+    <img src="photo.jpg/northern-lights.png"
+    width="400" height="200">
+</a>
+<div class="desc">Nothern lights</div>
+</div>
+</div>
+
+<div class="img-container">
+    <div class="gallery">
+    <a target="_blank">
+    <img src="photo.jpg/mountains.png"
+    width="400" height="200">
+</a>
+<div class="desc">Mountains</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+<div style="padding:6px;"></div>
+
+</div>
+</body>
+</html>

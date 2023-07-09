@@ -1,0 +1,37 @@
+.img-container {
+    float: left;
+    width: 20.99%;
+    padding: 0 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+} 
+.img-container:hover {
+    border: 1px; border-color: black;
+}
+img {
+    width: 100%;
+}
+div.desc {
+    padding: 1px;
+    text-align: center;
+}
+* {
+    box-sizing:border-box;
+}
+@media only screen and (max-width: 700px) {
+.img-container {
+    width: 49.99%;
+    margin: 6px 0;
+}
+}
+@media only screen and (max-width: 600px) {
+.img.img-container {
+    width: 100%;
+}
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

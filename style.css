@@ -19,17 +19,6 @@ div.desc {
 * {
     box-sizing:border-box;
 }
-@media only screen and (max-width: 700px) {
-.img-container {
-    width: 49.99%;
-    margin: 6px 0;
-}
-}
-@media only screen and (max-width: 600px) {
-.img.img-container {
-    width: 100%;
-}
-}
 .clearfix::after {
     content: "";
     display: table;
